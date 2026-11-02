@@ -1,0 +1,58 @@
+! Title: GIF Platforms & GIF CDN Blocklist (adblock)
+! Category: gifs
+! Description: GIF search/sharing platforms, GIF keyboards/APIs and their media CDNs
+!              (giphy + media*.giphy.com, tenor + media/media1/c/g.tenor.com + tenor.googleapis.com, klipy, gifer, redgifs, gifdb, ezgif, ...).
+! Homepage: https://github.com/tbpatj/blocklists
+! Last modified: 2026-11-02 (America/Denver)
+! Number of entries: 48
+! Exclusions: General image hosts and social networks are NOT included. gfycat.com is shut down (NXDOMAIN) and omitted;
+!             gify.com is a domain-broker page, not a GIF site, and is omitted. Parked/casino-repurposed GIF domains removed.
+!
+||animatedimages.org^
+||api.giphy.com^
+||api.redgifs.com^
+||api.tenor.com^
+||c.tenor.com^
+||developers.giphy.com^
+||ezgif.com^
+||g.tenor.com^
+||gfycatporn.com^
+||gifbay.com^
+||gifbin.com^
+||gifcen.com^
+||gifcities.org^
+||gifdb.com^
+||gifer.com^
+||gifgifs.com^
+||gifhq.com^
+||gifimage.net^
+||gifrific.com^
+||gifs.cc^
+||gifs.com^
+||gifsec.com^
+||gifsoup.com^
+||gifyu.com^
+||giphy.com^
+||gph.is^
+||i.gifer.com^
+||i.giphy.com^
+||imgflip.com^
+||j.gifs.com^
+||klipy.com^
+||makeagif.com^
+||media.giphy.com^
+||media.tenor.com^
+||media0.giphy.com^
+||media1.giphy.com^
+||media1.tenor.com^
+||media2.giphy.com^
+||media3.giphy.com^
+||media4.giphy.com^
+||picgifs.com^
+||reactiongifs.com^
+||redgifs.com^
+||senorgif.com^
+||static.klipy.com^
+||tenor.co^
+||tenor.com^
+||tenor.googleapis.com^
