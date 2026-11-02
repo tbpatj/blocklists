@@ -1,19 +1,13 @@
 AI/LLM Blocklist build stats
 ==========================================================
-Run 1 (2026-11-01, America/Denver): 4,879 unique live AI-first hostnames
-Run 2 (2026-11-02, America/Denver): +7,240 NEW hostnames (video/image priority)
-Core total now: 12,119 unique hostnames in domains.txt / hosts.txt / adblock.txt
+Run 1 (2026-11-01): 4,879 unique live AI-first hostnames
+Run 2 (2026-11-02): +7,240 NEW (video/image priority) → ~12,119
+Run 3 (2026-11-02): +7060 NEW (image/video + adult/NSFW gen) → 19179
 
-Run 2 additions by tag (new-domains-run2-tagged.tsv):
-  image generation / AI photo ............... 2,993
-  video generation .......................... 2,553
-  NSFW / deepfake / face-swap style ......... 1,201
-  audio / voice / music .....................   493
+Run 3 tag breakdown:
+  image: 2705
+  nsfw:  2034
+  video: 1930
+  audio: 391
 
-Run 2 user-requested examples confirmed present:
-  veed.io, elements.envato.com, easemate.ai, vid.ai,
-  studio.abacus.ai, vidrush.ai, videogenai.app
-
-Extended/lower-confidence list (domains-extended.txt): still 6,335 (unchanged this run)
-
-Target for run 2: ~4,000 new domains — HIT (+7,240).
+gamegamblings.com: INCLUDED (AI adult video gallery — verified via homepage title/content)
