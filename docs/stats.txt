@@ -1,22 +1,19 @@
-AI/LLM Blocklist build stats (2026-11-01, America/Denver)
+AI/LLM Blocklist build stats
 ==========================================================
-Final core list (domains.txt / hosts.txt / adblock.txt): 4879 unique hostnames (live per DoH, parked removed)
-Extended/lower-confidence list (domains-extended.txt):   6335 hostnames (live, unreviewed: AI-named or AI-directory B2B/feature tools)
-Core hosts NOT present in any pre-existing AI blocklist: 3979
-Candidates considered: 21,531 unique hosts; 14,204 DNS-checked; 1,884 NXDOMAIN + 222 SERVFAIL + 393 no-A dropped; 428 parked domains dropped.
+Run 1 (2026-11-01, America/Denver): 4,879 unique live AI-first hostnames
+Run 2 (2026-11-02, America/Denver): +7,240 NEW hostnames (video/image priority)
+Core total now: 12,119 unique hostnames in domains.txt / hosts.txt / adblock.txt
 
-Core breakdown by primary detected category:
-  chatbot / LLM frontends & GPT wrappers ... 1400
-  from curated lists (mixed categories) ..... 905
-  writing / homework / humanizer / detector . 721
-  image generation / AI photo ............... 642
-  music / voice / TTS / voice cloning ....... 252
-  agents / LLM APIs & infra ................. 238
-  video generation / avatars / dubbing ...... 233
-  AI companions / roleplay chat ............. 207
-  AI coding / app builders .................. 188
-  deepfake / face swap / NSFW gen ........... 83
-  AI tool directories ....................... 10
+Run 2 additions by tag (new-domains-run2-tagged.tsv):
+  image generation / AI photo ............... 2,993
+  video generation .......................... 2,553
+  NSFW / deepfake / face-swap style ......... 1,201
+  audio / voice / music .....................   493
 
-Target hit first: ~4000 domains (yes, 4,879 core). The 4-hour cap was NOT reached; actual effort was about 10-15 minutes wall-clock (automated pipeline),
-because one large structured source (lakey009 AI-Tools-List, 19k tools) plus DNS validation produced enough quality domains.
+Run 2 user-requested examples confirmed present:
+  veed.io, elements.envato.com, easemate.ai, vid.ai,
+  studio.abacus.ai, vidrush.ai, videogenai.app
+
+Extended/lower-confidence list (domains-extended.txt): still 6,335 (unchanged this run)
+
+Target for run 2: ~4,000 new domains — HIT (+7,240).

@@ -38,3 +38,6 @@ The `raw/` downloads and `build/` scripts described below produced this list. Th
 6. Manual review of core hosts that came only from the markdown lists: removed robotics firms, research blogs on github.io, badges/CDNs, news sites, general dev tools (`build/manual_drop.txt`).
 
 No domains were invented. Every entry comes from a published source or the hand seed, and all were DNS-validated. (Seed entries that failed DNS or turned out parked were dropped automatically.)
+
+## Run 2 (2026-11-02) — video/image expansion
+Harvested AI video/image directories, roundups, GitHub awesome lists, SimilarSites lookalikes of known generators, and related NSFW/avatar lists. Homepage-fetched and content-classified candidates; DoH liveness + NS parked checks. Additions-only file: [lists/new-domains-run2.txt](../lists/new-domains-run2.txt) (7,240), with category tags and homepage titles in [lists/new-domains-run2-tagged.tsv](../lists/new-domains-run2-tagged.tsv). User-reported gaps included: veed.io, elements.envato.com, easemate.ai, vid.ai, studio.abacus.ai, vidrush.ai, videogenai.app.
