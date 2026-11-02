@@ -43,3 +43,14 @@ Harvested AI video/image directories, roundups, GitHub awesome lists, SimilarSit
 
 ## Run 3 (2026-11-02) — adult / image / video expansion
 Homepage-verified harvest from NSFW AI directories, undress/nudify lists, AIToolNet, Dang.ai, SimilarSites lookalikes, CommonCrawl keyword mining, and urlscan. DoH liveness + NS parked filtering. Additions: `new-domains-run3.txt` (7060). User-reported gaps included (script-checked). `gamegamblings.com` verified as AI adult video gallery and included.
+
+
+## Run 4 (2026-11-02) — image / video / design expansion
+User-reported gaps (script-checked against `domains.txt`, homepage-visited, force-included): imgveo.com, packsia.com, miricanvas.com, makioai.com.
+New candidate sources:
+- Common Crawl host-level web graph **cc-main-2026-jul-aug-sep** (not used in earlier runs), streamed and filtered with the Run 2/3 token sets plus new design/writing/chat tokens (ai-generator, ai-design, poster/thumbnail/mockup/flyer/slide makers, humanizer, ai-chat, gpt…). The same new tokens were also run over the apr-may-jun and jan-feb-mar 2026 graphs.
+- Candidate hostnames were then filtered with word segmentation (wordninja), which requires both an "ai" token and a media/generation word. This removes substring noise like "dubai" and "hallmusic".
+- Lookalike and model-name mining (veo, kling, seedance, flux, nano-banana, hailuo, higgsfield…) over the cached CC/NRD host pool.
+- Directory sitemap crawls: futurepedia.io, aicyclopedia.com, ai-bot.cn, gpt3demo.com, aitop10.tools, easywithai.com, aitoolmall.com (findmyaitool.com partial).
+- Outlinks from core hosts not crawled before, plus a second hop from Run 4 accepts, and a deep crawl of newly found AI directories. Also SimilarSites for core hosts not queried before (low yield).
+Pipeline: homepage fetch (title/meta/text) → `classify4.py`. This is the Run 3 classifier plus design-generator, AI chat-frontend, humanizer/writing/story, coding-agent and directory rules. It has negative filters for chatbot-for-business/CRM/agency/course/guide/APK-mirror sites. Next came a manual title review with a drop list, a DoH A-record check, and an NS parked filter. Hostinger `dns-parking.com` and `spaceship.net` NS were not treated as parked, because those hosts had real homepage content. Additions-only file: `new-domains-run4.txt` (2015), tagged in `new-domains-run4-tagged.tsv`.

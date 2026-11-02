@@ -3,6 +3,7 @@ AI/LLM Blocklist build stats
 Run 1 (2026-11-01): 4,879 unique live AI-first hostnames
 Run 2 (2026-11-02): +7,240 NEW (video/image priority) → ~12,119
 Run 3 (2026-11-02): +7060 NEW (image/video + adult/NSFW gen) → 19179
+Run 4 (2026-11-02): +2015 NEW (image/video/design gen + humanizers, AI chat frontends, directories) → 21194
 
 Run 3 tag breakdown:
   image: 2705
@@ -11,3 +12,18 @@ Run 3 tag breakdown:
   audio: 391
 
 gamegamblings.com: INCLUDED (AI adult video gallery — verified via homepage title/content)
+
+Run 4 tag breakdown:
+  image: 756   (includes AI design / presentation / thumbnail / mockup / interior generators)
+  video: 426
+  other: 302   (AI humanizers, writing/story generators, coding agents, gen-AI tool directories)
+  audio: 254
+  nsfw:  183
+  chat:  94    (ChatGPT/LLM frontends & mirrors, AI character chat)
+
+Run 4 user examples (all force-checked, homepage-verified, now IN):
+  imgveo.com      video  — Imgveo AI: free text-to-video / image-to-video generator
+  packsia.com     video  — vertical stock video library + AI creative tools
+  miricanvas.com  image  — online design tool with built-in AI design/presentation/photo tools
+  makioai.com     video  — AI content generator for video, images, ads, voiceover
+
