@@ -49,6 +49,45 @@ Paste a raw URL into Pi-hole, AdGuard Home, NextDNS, or uBlock Origin:
 
 **Hosts file.** Append [hosts.txt](lists/hosts.txt) to `/etc/hosts` or `C:\Windows\System32\drivers\etc\hosts`, then flush the DNS cache.
 
+## Other category lists
+
+Four more blocklists, each published on its own under `lists/` and kept separate from the AI core lists above. Built 2026-11-02 (America/Denver). Build notes: [docs/categories-SUMMARY.md](docs/categories-SUMMARY.md).
+
+| Category | Entries | What it covers |
+|---|---|---|
+| [fileSharing](lists/fileSharing/) | 1,040 | One-click file hosts, anonymous and temporary upload sites, large-file transfer, multihoster/debrid services, and video file lockers. |
+| [linkSharing](lists/linkSharing/) | 119 | Pastebins, anonymous text and markdown dumps, and shareable online notepads. |
+| [gifs](lists/gifs/) | 48 | GIF search and sharing platforms, GIF keyboards and APIs, and their media CDNs. |
+| [stockMedia](lists/stockMedia/) | 326 | Stock photo, stock vector, and stock video sites, brand-owned country TLDs, and image CDNs. |
+
+[fileSharing/domains-extended.txt](lists/fileSharing/domains-extended.txt) has **1,073** entries (the 1,040 core hosts plus mainstream cloud drives). Review that file before you use it.
+
+Paste a raw URL the same way as the AI lists:
+
+**fileSharing**
+
+- Domains: <https://raw.githubusercontent.com/tbpatj/blocklists/main/lists/fileSharing/domains.txt>
+- Hosts: <https://raw.githubusercontent.com/tbpatj/blocklists/main/lists/fileSharing/hosts.txt>
+- Adblock: <https://raw.githubusercontent.com/tbpatj/blocklists/main/lists/fileSharing/adblock.txt>
+
+**linkSharing**
+
+- Domains: <https://raw.githubusercontent.com/tbpatj/blocklists/main/lists/linkSharing/domains.txt>
+- Hosts: <https://raw.githubusercontent.com/tbpatj/blocklists/main/lists/linkSharing/hosts.txt>
+- Adblock: <https://raw.githubusercontent.com/tbpatj/blocklists/main/lists/linkSharing/adblock.txt>
+
+**gifs**
+
+- Domains: <https://raw.githubusercontent.com/tbpatj/blocklists/main/lists/gifs/domains.txt>
+- Hosts: <https://raw.githubusercontent.com/tbpatj/blocklists/main/lists/gifs/hosts.txt>
+- Adblock: <https://raw.githubusercontent.com/tbpatj/blocklists/main/lists/gifs/adblock.txt>
+
+**stockMedia**
+
+- Domains: <https://raw.githubusercontent.com/tbpatj/blocklists/main/lists/stockMedia/domains.txt>
+- Hosts: <https://raw.githubusercontent.com/tbpatj/blocklists/main/lists/stockMedia/hosts.txt>
+- Adblock: <https://raw.githubusercontent.com/tbpatj/blocklists/main/lists/stockMedia/adblock.txt>
+
 ## Left out on purpose
 
 YouTube (`youtube.com`, `googlevideo.com`, `ytimg.com`) and sites that only use AI as a feature stay off this list. Also left out: `google.com`, `bing.com`, `microsoft.com`, `apple.com`, `amazon.com` and AWS, Meta/Facebook/Instagram, X/Twitter, Reddit, Discord, GitHub, Wikipedia, Notion, Adobe, Canva, Figma, Grammarly, DeepL, Duolingo, Khan Academy, Chegg, Brainly, Quizlet, stock-photo and art-community sites (DeviantArt, ArtStation, Pixiv, Shutterstock, Freepik), news and tech-press sites, and CDN, cloud, and website-builder roots.
