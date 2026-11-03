@@ -2,8 +2,8 @@
 # Description: Domains whose PRIMARY product is generative AI / LLMs (chatbots & LLM frontends, AI companions, image/video/music/voice generators,
 #              AI writing/homework/humanizer tools, AI coding products, AI avatars/face-swap/deepfake, LLM APIs/playgrounds, AI tool directories).
 # Homepage: https://github.com/tbpatj/blocklists
-# Last modified: 2026-11-01 (America/Denver)
-# Number of entries: 6335
+# Last modified: 2026-11-03 (America/Denver)
+# Number of entries: 6334
 # Exclusions: YouTube/googlevideo/ytimg, google.com, microsoft.com, bing.com, github.com, adobe.com, canva.com, social networks, news sites, stock-photo sites,
 #             general cloud infra (AWS/Azure/Cloudflare roots) and "merely uses AI" products are NOT blocked. Only dedicated AI hostnames on big platforms
 #             are listed (e.g. gemini.google.com, copilot.microsoft.com, firefly.adobe.com). Path-only AI features (bing.com/create, x.com/i/grok) cannot be DNS-blocked.
@@ -2214,7 +2214,6 @@ flowch.ai
 flowgenai.com
 flowhunt.io
 flowiseai.com
-flowith.io
 flowity.ai
 flowjin.com
 flowon.ai

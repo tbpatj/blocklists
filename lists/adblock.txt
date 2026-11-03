@@ -1,6 +1,6 @@
 ! Title: AI / LLM Generative-AI Blocklist (adblock)
-! Last modified: 2026-11-02 (America/Denver)
-! Number of entries: 21194
+! Last modified: 2026-11-03 (America/Denver)
+! Number of entries: 21196
 !
 ||008agent.ai^
 ||01.ai^
@@ -8445,6 +8445,7 @@
 ||flowgpt.com^
 ||flowi.video^
 ||flowie.co^
+||flowith.io^
 ||flowjin.com^
 ||flowmata.com^
 ||flowmusic.co^
@@ -19688,6 +19689,7 @@
 ||ventureaiart.beehiiv.com^
 ||ventureduckling.com^
 ||venus.chub.ai^
+||venzia.cc^
 ||veo-3-1.io^
 ||veo-3-ai.org^
 ||veo-3-bot.ru^
