@@ -51,16 +51,16 @@ Paste a raw URL into Pi-hole, AdGuard Home, NextDNS, or uBlock Origin:
 
 ## Other category lists
 
-Four more blocklists, each published on its own under `lists/` and kept separate from the AI core lists above. Built 2026-11-02 (America/Denver). Build notes: [docs/categories-SUMMARY.md](docs/categories-SUMMARY.md).
+Four more blocklists, each published on its own under `lists/` and kept separate from the AI core lists above. Built 2026-11-02 and expanded the same day (America/Denver): gifs 133, linkSharing 281, stockMedia 626, fileSharing 1,294 (extended 1,333). Build notes: [docs/categories-SUMMARY.md](docs/categories-SUMMARY.md). Expansion: [docs/EXPANSION-2026-11-02.md](docs/EXPANSION-2026-11-02.md).
 
 | Category | Entries | What it covers |
 |---|---|---|
-| [fileSharing](lists/fileSharing/) | 1,040 | One-click file hosts, anonymous and temporary upload sites, large-file transfer, multihoster/debrid services, and video file lockers. |
-| [linkSharing](lists/linkSharing/) | 119 | Pastebins, anonymous text and markdown dumps, and shareable online notepads. |
-| [gifs](lists/gifs/) | 48 | GIF search and sharing platforms, GIF keyboards and APIs, and their media CDNs. |
-| [stockMedia](lists/stockMedia/) | 326 | Stock photo, stock vector, and stock video sites, brand-owned country TLDs, and image CDNs. |
+| [fileSharing](lists/fileSharing/) | 1,294 | One-click file hosts, anonymous and temporary upload sites, large-file transfer, multihoster/debrid services, and video file lockers. |
+| [linkSharing](lists/linkSharing/) | 281 | Pastebins, anonymous text and markdown dumps, and shareable online notepads. |
+| [gifs](lists/gifs/) | 133 | GIF search and sharing platforms, GIF keyboards and APIs, and their media CDNs. |
+| [stockMedia](lists/stockMedia/) | 626 | Stock photo, stock vector, and stock video sites, brand-owned country TLDs, and image CDNs. |
 
-[fileSharing/domains-extended.txt](lists/fileSharing/domains-extended.txt) has **1,073** entries (the 1,040 core hosts plus mainstream cloud drives). Review that file before you use it.
+[fileSharing/domains-extended.txt](lists/fileSharing/domains-extended.txt) has **1,333** entries (the 1,294 core hosts plus mainstream cloud drives). Review that file before you use it.
 
 Paste a raw URL the same way as the AI lists:
 

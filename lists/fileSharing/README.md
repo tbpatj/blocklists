@@ -2,7 +2,7 @@
 
 **Purpose:** block one-click file hosts, anonymous/temporary upload sites, large-file transfer services, multihoster/debrid "premium leech" services and video file lockers (mega.nz, file.io, mediafire, dropmefiles, gofile, pixeldrain, anonfiles-style, wetransfer, catbox, 1fichier, ...).
 
-**Entries:** 1040 (`domains.txt`, `hosts.txt`, `adblock.txt`) · 1073 in `domains-extended.txt` (main + 33 mainstream cloud-drive hosts)
+**Entries:** 1294 (`domains.txt`, `hosts.txt`, `adblock.txt`; 1040 original + 254 added 2026-11-02) · 1333 in `domains-extended.txt` (main + 39 mainstream cloud-drive hosts)
 
 ## Sources
 | Source | Kept in final |
@@ -23,3 +23,9 @@
 - Domains that resolve but returned TLS error / timeout / Cloudflare challenge are kept (DNS-live, homepage unverified).
 - Dead examples: anonfiles.com, anonfile.com, bashupload.com, ge.tt (NXDOMAIN). 2shared.com → casino page; fastupload.io → for sale (excluded).
 - Overlap with the AI list: terabox.com.
+
+## Expansion 2026-11-02 (+254 main, +6 extended)
+- **Debrid supported-host lists** (public APIs, hoster entries only — streaming-site and link-protector sections ignored): Real-Debrid `/hosts/domains`, AllDebrid `/v4/hosts` (`hosts` group), Premiumize `/services/list`, TorBox `/webdl/hosters` (type `hoster`). 351 new names → manual removal of social/video/archive/booru/adult-tube/Google/Discord/Telegram/random-rotating domains → DoH → title check. Plus ~90 hand-curated temp-upload/transfer/regional hosts.
+- **Notable adds:** clicknupload.* & clickndownload.* mirrors, katfile.*, turbobit/hitfile mirrors (hif.to family), rapidgator.asia/rg.to, k2share.cc, nitro.download/nitroflare.net, mixdrop.*, streamtape.* (+ tapecontent.net), voe.sx + mirrors, doodstream/dood.*, filemoon.sx/.to, vidhide.com, lulustream.com, vidoza.*, bunkr.* + cyberdrop.cr, pixeldrain.dev/.net, filedot.*, hubcloud.*, hubdrive.*, driveseed.org, filepress.*, webshare.cz, simfileshare.net, pillowcase.su, apkadmin.com, modsbase.com, sharemods.org, transfer.it (MEGA), TeraBox mirrors (1024terabox.com, terabox.app, 4funbox.com, gibibox.com, nephobox.com, freeterabox.com, teraboxlink.com, terasharelink.com, teraboxshare.com, momerybox.com, tibibox.com), mypikpak.com, Lanzou (lanzoux/lanzoui/lanzouw/lanzout/ilanzou.com), wenshushu.cn, firestorage.jp, axfc.net, fex.net, 0x0.st, x0.at, envs.sh, oshi.at, qu.ax, pomf.lain.la, tmp.ninja, tempfiles.ninja, send.vis.ee, fileditch.com, masv.io, wesendit.com, send.tresorit.com, transfer.pcloud.com, cloudup.com.
+- **Extended only:** disk.yandex.net, disk.yandex.ru, koofr.eu, 123pan.com, 123684.com, filen.io.
+- **Checked and rejected:** 60 NXDOMAIN; parked/casino/repurposed (heroupload.com toto, ifolder.com.ua & vidcloud.ru & xrfiles.ru casinos, turbobit.com/tourbit.com parked, turbobyte.net/mediafire.cc for sale, bdupload.in torrent proxy, dfiles.ru blog, gofile.me = Synology QuickConnect, cowtransfer.com now a design tool, dotup.org closed). See `build/fs_title_drop.txt` and `build/fs_exclude.txt`.

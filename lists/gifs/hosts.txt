@@ -1,58 +1,144 @@
 # Title: GIF Platforms & GIF CDN Blocklist (hosts)
 # Category: gifs
 # Description: GIF search/sharing platforms, GIF keyboards/APIs and their media CDNs
-#              (giphy + media*.giphy.com, tenor + media/media1/c/g.tenor.com + tenor.googleapis.com, klipy, gifer, redgifs, gifdb, ezgif, ...).
+#              (giphy + media*.giphy.com, tenor + media/media1/c/g.tenor.com + tenor.googleapis.com, klipy, gifer, redgifs, gifdb, ezgif, ...),
+#              GIF makers/converters, reaction-GIF sites, glitter/animated-GIF galleries (EN/ES/DE/NL/RU/CN) and Coub loops.
 # Homepage: https://github.com/tbpatj/blocklists
 # Last modified: 2026-11-02 (America/Denver)
-# Number of entries: 48
+# Number of entries: 133
 # Exclusions: General image hosts and social networks are NOT included. gfycat.com is shut down (NXDOMAIN) and omitted;
 #             gify.com is a domain-broker page, not a GIF site, and is omitted. Parked/casino-repurposed GIF domains removed.
 #
+0.0.0.0 3dgifmaker.com
+0.0.0.0 animaatjes.de
+0.0.0.0 animaatjes.nl
+0.0.0.0 animatedgif.net
 0.0.0.0 animatedimages.org
+0.0.0.0 animierte-gifs.net
+0.0.0.0 animiertegifs.de
 0.0.0.0 api.giphy.com
+0.0.0.0 api.klipy.com
 0.0.0.0 api.redgifs.com
 0.0.0.0 api.tenor.com
+0.0.0.0 blingee.com
 0.0.0.0 c.tenor.com
+0.0.0.0 coub.com
 0.0.0.0 developers.giphy.com
+0.0.0.0 doutula.com
+0.0.0.0 doutupk.com
 0.0.0.0 ezgif.com
+0.0.0.0 ezgif.org
+0.0.0.0 fabiaoqing.com
+0.0.0.0 files.redgifs.com
 0.0.0.0 g.tenor.com
 0.0.0.0 gfycatporn.com
+0.0.0.0 gickr.com
+0.0.0.0 gif-maker.app
+0.0.0.0 gif-vif.com
+0.0.0.0 gif.ski
+0.0.0.0 gifbase.com
 0.0.0.0 gifbay.com
 0.0.0.0 gifbin.com
+0.0.0.0 gifbox.me
+0.0.0.0 gifcandy.net
+0.0.0.0 gifcap.dev
 0.0.0.0 gifcen.com
 0.0.0.0 gifcities.org
+0.0.0.0 gifcompressor.com
 0.0.0.0 gifdb.com
+0.0.0.0 gifdeliverynetwork.com
 0.0.0.0 gifer.com
 0.0.0.0 gifgifs.com
+0.0.0.0 gifgratis.net
 0.0.0.0 gifhq.com
 0.0.0.0 gifimage.net
+0.0.0.0 gifit.app
+0.0.0.0 gifjif.com
+0.0.0.0 gifki.org
+0.0.0.0 gifmake.com
+0.0.0.0 gifmania.com
+0.0.0.0 gifmemes.io
+0.0.0.0 gifntext.com
+0.0.0.0 gifpal.com
+0.0.0.0 gifpanda.com
 0.0.0.0 gifrific.com
+0.0.0.0 gifrun.com
+0.0.0.0 gifs-animados.net
+0.0.0.0 gifs.alphacoders.com
 0.0.0.0 gifs.cc
 0.0.0.0 gifs.com
+0.0.0.0 gifs.ru
+0.0.0.0 gifsanimados.de
+0.0.0.0 gifsanimados.org
+0.0.0.0 gifsauce.com
+0.0.0.0 gifsboom.net
 0.0.0.0 gifsec.com
+0.0.0.0 gifsfor.com
+0.0.0.0 gifsound.com
 0.0.0.0 gifsoup.com
+0.0.0.0 gifwrapped.co
 0.0.0.0 gifyu.com
+0.0.0.0 giphy-analytics.giphy.com
 0.0.0.0 giphy.com
+0.0.0.0 glitter-graphics.com
+0.0.0.0 glitter-graphics.org
+0.0.0.0 glitterfy.com
 0.0.0.0 gph.is
+0.0.0.0 heypster-gif.com
+0.0.0.0 heypster.com
 0.0.0.0 i.gifer.com
+0.0.0.0 i.gifs.com
 0.0.0.0 i.giphy.com
+0.0.0.0 i.imgflip.com
+0.0.0.0 i.makeagif.com
+0.0.0.0 i.redgifs.com
+0.0.0.0 img.soogif.com
 0.0.0.0 imgflip.com
+0.0.0.0 imgflip.org
 0.0.0.0 j.gifs.com
+0.0.0.0 klipy.co
 0.0.0.0 klipy.com
+0.0.0.0 lolgifs.net
 0.0.0.0 makeagif.com
+0.0.0.0 media.gifdb.com
 0.0.0.0 media.giphy.com
+0.0.0.0 media.redgifs.com
+0.0.0.0 media.tenor.co
 0.0.0.0 media.tenor.com
 0.0.0.0 media0.giphy.com
 0.0.0.0 media1.giphy.com
+0.0.0.0 media1.tenor.co
 0.0.0.0 media1.tenor.com
 0.0.0.0 media2.giphy.com
 0.0.0.0 media3.giphy.com
 0.0.0.0 media4.giphy.com
+0.0.0.0 mrgif.com
+0.0.0.0 onlinegiftools.com
+0.0.0.0 picasion.com
 0.0.0.0 picgifs.com
+0.0.0.0 pingback.giphy.com
+0.0.0.0 porngifs.com
 0.0.0.0 reactiongifs.com
+0.0.0.0 reactiongifs.me
+0.0.0.0 reactiongifs.us
 0.0.0.0 redgifs.com
+0.0.0.0 s1.ezgif.com
+0.0.0.0 s1.gifyu.com
+0.0.0.0 s2.ezgif.com
+0.0.0.0 s2.gifyu.com
+0.0.0.0 s3.ezgif.com
+0.0.0.0 s3.gifyu.com
+0.0.0.0 s4.ezgif.com
+0.0.0.0 s5.ezgif.com
+0.0.0.0 s6.ezgif.com
+0.0.0.0 s7.ezgif.com
 0.0.0.0 senorgif.com
+0.0.0.0 soogif.com
 0.0.0.0 static.klipy.com
+0.0.0.0 support.giphy.com
 0.0.0.0 tenor.co
 0.0.0.0 tenor.com
 0.0.0.0 tenor.googleapis.com
+0.0.0.0 upload.giphy.com
+0.0.0.0 v3.redgifs.com
+0.0.0.0 xgifer.com
