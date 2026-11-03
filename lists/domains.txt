@@ -3,8 +3,8 @@
 #              AI writing/homework/humanizer tools, AI coding products, AI avatars/face-swap/deepfake, LLM APIs/playgrounds, AI tool directories,
 #              including adult/NSFW generative image and video sites).
 # Homepage: https://github.com/tbpatj/blocklists
-# Last modified: 2026-11-02 (America/Denver)
-# Number of entries: 21194
+# Last modified: 2026-11-03 (America/Denver)
+# Number of entries: 21196
 # Exclusions: YouTube/googlevideo/ytimg, google.com, microsoft.com, bing.com, github.com, adobe.com, canva.com, social networks, news sites,
 #             general cloud infra and "merely uses AI" products are NOT blocked. Only dedicated AI hostnames on big platforms are listed.
 # Run 1: ~4,879 | Run 2: +7,240 video/image | Run 3: +7060 adult/image/video gen (homepage-verified + DNS-checked) | Run 4: +2015 image/video/design/writing gen
@@ -8452,6 +8452,7 @@ flowaivideo.studio
 flowgpt.com
 flowi.video
 flowie.co
+flowith.io
 flowjin.com
 flowmata.com
 flowmusic.co
@@ -19695,6 +19696,7 @@ venommakeup.cc
 ventureaiart.beehiiv.com
 ventureduckling.com
 venus.chub.ai
+venzia.cc
 veo-3-1.io
 veo-3-ai.org
 veo-3-bot.ru

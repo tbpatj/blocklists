@@ -4,7 +4,7 @@ A DNS and hosts blocklist, in the style of community lists such as [HaGeZi](http
 
 This repository is an independent project. It is not affiliated with HaGeZi.
 
-Built 2026-11-01 and expanded 2026-11-02 (America/Denver). The core lists contain **21,194** live hostnames. Run 2 added **7,240** hosts focused on AI video, image, avatar, and NSFW generation (plus related voice and music tools). Run 3 added **7,060** hosts (the target was about 6,000), focused on AI image and video generators and adult/NSFW generation. Run 4 added **2,015** hosts focused on AI image, video, and design generators, plus humanizers, AI chat frontends, and tool directories. A separate extended list contains **6,335** lower-confidence hosts; review that file before you use it.
+Built 2026-11-01 and expanded 2026-11-02 (America/Denver). The core lists contain **21,196** live hostnames. Run 2 added **7,240** hosts focused on AI video, image, avatar, and NSFW generation (plus related voice and music tools). Run 3 added **7,060** hosts (the target was about 6,000), focused on AI image and video generators and adult/NSFW generation. Run 4 added **2,015** hosts focused on AI image, video, and design generators, plus humanizers, AI chat frontends, and tool directories. A separate extended list contains **6,335** lower-confidence hosts; review that file before you use it.
 
 Run 2 covers previously missing examples, including `veed.io`, `elements.envato.com`, `easemate.ai`, `vid.ai`, `studio.abacus.ai`, `vidrush.ai`, and `videogenai.app`. Run 3 covers further image, video, and adult generators, including `gamegamblings.com`, `teaseme.ai`, `freespicy.io`, and `creticai.com`. Run 4 covers previously missing image, video, and design tools, including `imgveo.com`, `packsia.com`, `miricanvas.com`, and `makioai.com`.
 
@@ -16,10 +16,10 @@ Chatbots and LLM frontends (including clones and mirrors), AI companions and rol
 
 | File | Entries | Use |
 |---|---|---|
-| [lists/domains.txt](lists/domains.txt) | 21,194 | Plain domains, one per line. Pi-hole domain lists, AdGuard Home, NextDNS, GL-iNet, Technitium, Blocky. |
-| [lists/hosts.txt](lists/hosts.txt) | 21,194 | `0.0.0.0 domain`. OS hosts file, Pi-hole, AdGuard Home, dnsmasq. |
-| [lists/adblock.txt](lists/adblock.txt) | 21,194 | `\|\|domain^`. AdGuard Home, AdGuard DNS, uBlock Origin, Brave. Also blocks subdomains. |
-| [lists/domains-extended.txt](lists/domains-extended.txt) | 6,335 | **Lower confidence. Review before use.** Live hosts that are B2B AI SaaS or products that only include AI as a feature. Unchanged in Runs 2, 3, and 4. |
+| [lists/domains.txt](lists/domains.txt) | 21,196 | Plain domains, one per line. Pi-hole domain lists, AdGuard Home, NextDNS, GL-iNet, Technitium, Blocky. |
+| [lists/hosts.txt](lists/hosts.txt) | 21,196 | `0.0.0.0 domain`. OS hosts file, Pi-hole, AdGuard Home, dnsmasq. |
+| [lists/adblock.txt](lists/adblock.txt) | 21,196 | `\|\|domain^`. AdGuard Home, AdGuard DNS, uBlock Origin, Brave. Also blocks subdomains. |
+| [lists/domains-extended.txt](lists/domains-extended.txt) | 6,334 | **Lower confidence. Review before use.** Live hosts that are B2B AI SaaS or products that only include AI as a feature. Unchanged in Runs 2, 3, and 4. |
 | [lists/new-domains-run2.txt](lists/new-domains-run2.txt) | 7,240 | Run 2 additions only. These hosts are already in the core lists above. |
 | [lists/new-domains-run2-tagged.tsv](lists/new-domains-run2-tagged.tsv) | 7,240 | Same Run 2 additions, with a category tag and homepage title. For review, not a blocklist format. |
 | [lists/new-domains-run3.txt](lists/new-domains-run3.txt) | 7,060 | Run 3 additions only. These hosts are already in the core lists above. |
@@ -108,7 +108,7 @@ The long tail has a small false-positive rate (about 1–3%), mostly tiny GPT-wr
 
 ## Category counts
 
-Core list, **21,194** hostnames. Run 1 (2026-11-01) classified the original **4,879**:
+Core list, **21,196** hostnames. Run 1 (2026-11-01) classified the original **4,879**:
 
 | Category | Hosts |
 |---|---|
