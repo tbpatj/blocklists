@@ -51,7 +51,7 @@ Paste a raw URL into Pi-hole, AdGuard Home, NextDNS, or uBlock Origin:
 
 ## Other category lists
 
-Five more blocklists, each published on its own under `lists/` and kept separate from the AI core lists above. Built 2026-11-02 and expanded the same day (America/Denver): gifs 133, linkSharing 281, stockMedia 626, fileSharing 1,294 (extended 1,333). videoSharing (298) was added 2026-11-05. Build notes: [docs/categories-SUMMARY.md](docs/categories-SUMMARY.md). Expansion: [docs/EXPANSION-2026-11-02.md](docs/EXPANSION-2026-11-02.md).
+Five more blocklists, each published on its own under `lists/` and kept separate from the AI core lists above. Built 2026-11-02 and expanded the same day (America/Denver): gifs 133, linkSharing 281, stockMedia 626, fileSharing 1,294 (extended 1,333). videoSharing (601) was added 2026-11-05 and expanded the same day to cover licensed streaming as well as UGC. Build notes: [docs/categories-SUMMARY.md](docs/categories-SUMMARY.md). Expansion: [docs/EXPANSION-2026-11-02.md](docs/EXPANSION-2026-11-02.md).
 
 | Category | Entries | What it covers |
 |---|---|---|
@@ -59,7 +59,7 @@ Five more blocklists, each published on its own under `lists/` and kept separate
 | [linkSharing](lists/linkSharing/) | 281 | Pastebins, anonymous text and markdown dumps, and shareable online notepads. |
 | [gifs](lists/gifs/) | 133 | GIF search and sharing platforms, GIF keyboards and APIs, and their media CDNs. |
 | [stockMedia](lists/stockMedia/) | 626 | Stock photo, stock vector, and stock video sites, brand-owned country TLDs, and image CDNs. |
-| [videoSharing](lists/videoSharing/) | 298 | User-generated / video-sharing platforms (YouTube, X/Twitter, Vimeo, of.tv, TikTok, Twitch, regional tubes, adult UGC tubes) — not SVOD. |
+| [videoSharing](lists/videoSharing/) | 601 | User-generated video-sharing and licensed streaming platforms (YouTube, X/Twitter, Vimeo, of.tv, TikTok, Twitch, regional tubes, adult UGC tubes, plus Netflix, Disney+, Hulu, Max, Prime Video, Peacock, Paramount+, Crunchyroll, Tubi/Pluto, and other regional streamers). |
 
 [fileSharing/domains-extended.txt](lists/fileSharing/domains-extended.txt) has **1,333** entries (the 1,294 core hosts plus mainstream cloud drives). Review that file before you use it.
 
